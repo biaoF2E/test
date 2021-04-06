@@ -1,0 +1,28 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/biaoF2E/test.git"
+  },
+  "author": "biao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/biaoF2E/test/issues"
+  },
+  "homepage": "https://github.com/biaoF2E/test#readme",
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0",
+    "validate-commit-msg": "^2.14.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
